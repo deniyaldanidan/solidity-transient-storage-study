@@ -34,9 +34,6 @@ contract TransientStudy1 is ITransientStudy {
 }
 
 contract TransientStudy2 is ITransientStudy {
-    bytes32 public constant MY_TRANSIENT_SLOT =
-        0x3a2dc4f178a05471b2399015de6aff9e11b6f56295ee4c97ab1aefce79cd1f13;
-
     uint256 transient trnValue;
 
     function storeT() public {
